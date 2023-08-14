@@ -29,3 +29,14 @@ GIT DIFF --NAME-ONLY - RETORNA O NOME DO ARQUIVO ALTERADO
 CONEXAO EXTERNA
 
  ssh-keygen -t rsa -b 4096 -C "MESMO EMAIL USADO NO GIT"
+
+ Ignorando arquivos na hora do push
+
+ crie um arquivo .ignore
+ -> dentro do arquivo voce define o que sera ocultado no arquivo .ignore como por exemplo: pastas, arquivos...
+ entre asteriscos coloque a extensao do arquivo ou o caminho da pasta que sera ocultada ex:
+
+example.sql (nome do arquivo)
+ *.sql*
+ */src/*
+
