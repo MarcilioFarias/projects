@@ -1,5 +1,6 @@
 First readme file
 
+NOVA FUNCIONALIDADE
 
 new index and style
 
@@ -41,6 +42,7 @@ example.sql (nome do arquivo)
  /src/*
 
  Comando GIT revert
+ volta o commit feito, mas deixa o codigo
 
 
 
