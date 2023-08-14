@@ -1,6 +1,6 @@
 First readme file
 
-NOVA FUNCIONALIDADE
+NOVA FUNCIONALIDADE X
 
 new index and style
 
@@ -43,6 +43,15 @@ example.sql (nome do arquivo)
 
  Comando GIT revert
  volta o commit feito, mas deixa o codigo
+--no-edit e para nao abrir o editor
 
+git revert --no-edit numero do commit
 
+DELETANDO BRANCH LOCAIS E REMOTOS
+
+(deletando remoto)git push origin :nome do branch
+
+(local) git branch -D nome do branch
+
+GIT PULL PEGA OS ARQUIVOS DO GIT
 
