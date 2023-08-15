@@ -55,3 +55,27 @@ DELETANDO BRANCH LOCAIS E REMOTOS
 
 GIT PULL PEGA OS ARQUIVOS DO GIT
 
+origin - de onde esta pegando 
+master - onde sera adicionada as informacoes 
+
+git pull origin master
+
+CLONAR PROJETOS - cria uma copia do git escolhido no repositorio local
+
+git clone link do repositorio 
+
+CONTRIBUINDO COM OUTROS REPOSITORIOS (FORK/ PULL REQUEST)
+
+no repositorio que desejado clique em fork - isso fara com que seja criado um repositorio identico ao original no seu perfil.
+
+agora crie um clone no seu repositorio local
+
+Para saber o nome do branch de onde veio o repositorio
+
+git remote -v
+
+depois no seu git abra uma pull request para enviar a alteracao feita.
+
+JUNTANDO DUAS BRANCHS
+
+git merge nome da brach

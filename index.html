@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Auto Type</title>
 </head>
 <body>
     
+    <h1 id="type" style="color: blue;"></h1>
+
+
+    <script>
+
+        function autoWrite(text){
+            let i = 0;
+            let intervalId = setInterval(()=> {
+                
+                document.getElementById('type').innerHTML += text[i];
+                i++;
+
+                if(i == text.length) {
+                    clearInterval(intervalId)
+                }
+
+            },100);
+        }
+
+        autoWrite(prompt())
+    </script>
+
+
+
 </body>
 </html>
